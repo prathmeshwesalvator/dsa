@@ -1,7 +1,4 @@
 package Programs.Array.problems;
-
-import java.lang.reflect.Array;
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Set;
@@ -39,7 +36,7 @@ class ArrayOperations {
         }
     }
 
-    public static int[] removeDuplicatesHashSet(Integer[] array) {
+    public static Object[] removeDuplicatesHashSet(Integer[] array) {
 
         Set<Integer> hashSet = new HashSet<>(Arrays.asList(array));
         return hashSet.toArray();
